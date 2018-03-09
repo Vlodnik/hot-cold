@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-link {
+  display: block;
+  background-color: #1F233E;
+  border: none;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin: 1em 1em;
+}
+
+.info {
+
+}
+
+.new {
+
+}

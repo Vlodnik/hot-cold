@@ -1,0 +1,8 @@
+.game-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  margin: auto;
+  width: 30%;
+}

@@ -1,0 +1,32 @@
+.guess-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #383F66;
+}
+
+.guess-form input {
+  background-color: #4F567D;
+  color: lightgray;
+  font-size: 2em;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 1em auto;
+  width: 80%;
+  text-align: center;
+}
+
+.guess-form button {
+  background-color: #1F233E;
+  color: lightgray;
+  font-size: 2em;
+  border: none;
+  border-radius: 3px;
+  margin: auto;
+  width: 80%;
+  transition: background-color 1s;
+}
+
+.guess-form button:hover {
+  background-color: #DF0043;
+  cursor: pointer;
+}
