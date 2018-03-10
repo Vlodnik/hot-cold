@@ -2,10 +2,10 @@ import React from 'react';
 
 import './ReactionBanner.css';
 
-export default function ReactionBanner() {
+export default function ReactionBanner(props) {
   return (
     <div className="reaction-banner">
-      Make your guess!
+      {props.text}
     </div>
   )
 }
