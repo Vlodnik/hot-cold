@@ -40,7 +40,7 @@ export default class Game extends React.Component {
     if(this.state.screen === 'game') {
       return (
         <div className="big-box">
-          <Header handleClick={() => this.handleInfo() } />
+          <Header handleInfoClick={() => this.handleInfo() } />
           <h1>HOT or COLD</h1>
           <GameBox />
         </div>

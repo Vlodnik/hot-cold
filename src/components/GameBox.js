@@ -12,7 +12,6 @@ export default class GameBox extends React.Component {
       secretNumber: Math.floor(Math.random() * 100) + 1,
       reactionText: 'Make your guess!',
       guessCount: 0,
-      lastGuess: null,
       guessHistory: []
     };
   }
