@@ -1,3 +1,68 @@
+.big-box {
+  background-color: #1F233E;
+  border-radius: 4px;
+  width: 98vw;
+  height: 96vh;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.info-box {
+  background-color: #FB2A29;
+  border-radius: 4px;
+  width: 98vw;
+  height: 96vh;
+  margin: auto;
+}
+
+.content-box {
+  position: relative;
+  top: 15vh;
+  border: 1px solid #ce0808;
+  border-radius: 4px;
+  margin: auto;
+  width: 45%;
+}
+
+.content-box h2 {
+  background-color: #ce0808;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.5em 0;
+}
+
+.content-box h3, .content-box li {
+  color: white;
+  margin: 0 2em;
+  line-height: 1.5em;
+}
+
+.content-box li {
+  margin-bottom: 1em;
+}
+
+.content-box button {
+  display: block;
+  background-color: #1F233E;
+  color: lightgray;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2em;
+  margin: 1em auto;
+  padding: 0.2em 1.2em;
+}
+
+.content-box button:hover {
+  cursor: pointer;
+}
+
 .game-box {
   background-color: white;
   display: flex;

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Game from './components/Game';
+import GameBox from './components/GameBox';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Game />, document.getElementById('root'));
+ReactDOM.render(<GameBox />, document.getElementById('root'));
 registerServiceWorker();

@@ -3,15 +3,6 @@ import React from 'react';
 import './Game.css';
 import Header from './Header';
 import GameBox from './GameBox';
-// import Info from './Info';
-
-const Info = function() {
-  return <div></div>
-}
-
-const InfoScreen = function() {
-  return <div></div>
-}
 
 export default class Game extends React.Component {
   constructor(props) {
@@ -21,10 +12,7 @@ export default class Game extends React.Component {
     };
   }
 
-  handleInfo(event) {
-    // event.preventDefault();
-    // console.log(event);
-    console.log('handleInfo ran');
+  handleInfo() {
     if(this.state.screen === 'game') {
       this.setState({
         screen: 'info'
@@ -40,9 +28,12 @@ export default class Game extends React.Component {
     if(this.state.screen === 'game') {
       return (
         <div className="big-box">
-          <Header handleInfoClick={() => this.handleInfo() } />
+          <Header
+            handleInfoClick={() => this.handleInfo()}
+            handleNewClick={() => this.handleNew()}
+          />
           <h1>HOT or COLD</h1>
-          <GameBox />
+          <GameBox newGame={this.state.newGame} />
         </div>
       );
     } else if(this.state.screen === 'info') {
